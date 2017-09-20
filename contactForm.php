@@ -1,6 +1,6 @@
 <?php
 if($_POST["message"]) {
-    mail("datascience@binghamtonsa.org", "Website Notification", $_POST["message"], "From: " + $_POST["email"]);
+    mail("datascience@binghamtonsa.org", "Website Notification", $_POST["message"], "From: The Website");
 }
 ?>
 
@@ -20,7 +20,8 @@ if($_POST["submit"]) {
     $thankYou="<p>Thank you! Your message has been sent.</p>";
 }
 
-?><!DOCTYPE html>
+?>
+<!-- <!DOCTYPE html>
 
 <html>
 <head>
@@ -47,4 +48,4 @@ if($_POST["submit"]) {
 
 </body>
 
-</html>
+</html> -->
